@@ -1,0 +1,3 @@
+Tous les fichiers mis dans le git doivent être mis dans un nouveau dossier Dev
+Tel que C:/Dev/Birch engine
+les chemins de sont pas encore inscrit afin d'eviter tout mauvais emplacement
