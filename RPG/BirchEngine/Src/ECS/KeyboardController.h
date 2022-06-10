@@ -126,33 +126,5 @@ public:
 			transform->velocity.y = 1*moveY;
 			transform->velocity.x = 1*moveX;
 		}
-	/*
-		if (Game::event.type == SDL_KEYUP)
-		{
-
-			switch (Game::event.key.keysym.sym)
-			{
-			case SDLK_z:
-				transform->velocity.y = 0;
-				sprite->Play("IdleUp");
-				break;
-			case SDLK_q:
-				transform->velocity.x = 0;
-				sprite->Play("Idle");
-				break;
-			case SDLK_d:
-				transform->velocity.x = 0;
-				sprite->Play("Idle");
-				break;
-			case SDLK_s:
-				transform->velocity.y = 0;
-				sprite->Play("IdleDown");
-				break;
-			case SDLK_ESCAPE:
-				Game::isRunning = false;
-			default:
-				break;
-			}
-		}*/
 	}
 };
